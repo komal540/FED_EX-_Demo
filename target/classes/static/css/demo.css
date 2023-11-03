@@ -1,0 +1,46 @@
+
+/*Main CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background-color: black;
+    color: #ff8800;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    max-width: 90%;
+    margin: 30px auto;
+    overflow: auto;
+    border: 1px solid #0080ff;
+    padding: 3% 3% 3% 2%;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+}
+
+.container > div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.worldMap {
+    margin-bottom: 30px;
+    width: 100%;
+}
